@@ -6,7 +6,9 @@
     "build": "gulp build",
     "compile": "gulp css",
     "watch": "gulp",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "test": "mocha",
+    "coverage": "nyc npm run test"
   },
   "browserslist": [
     "last 3 versions"
@@ -19,5 +21,9 @@
     "gulp-autoprefixer": "^8",
     "gulp-sass": "^4",
     "gulp-sourcemaps": "^3"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
   }
 }
