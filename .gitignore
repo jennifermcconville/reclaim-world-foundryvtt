@@ -122,3 +122,4 @@ dist
 # Foundry
 *.lock
 FoundryWorlds/developing-reclaim/scenes/thumbs/
+FoundryWorlds/developing-reclaim/data/messages.db
