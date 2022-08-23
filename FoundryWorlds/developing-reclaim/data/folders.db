@@ -1,6 +1,7 @@
 {"name":"Infrastructure","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"177s5qB2gsOeiIQM"}
 {"name":"Resources","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"2CyerQskypp8wBab"}
 {"name":"Card Hands","type":"Cards","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"43UbsWPhZLgsERHs"}
+{"name":"Infrastructure","type":"Cards","parent":"pGOof4SVGFvNHE6Z","sorting":"a","sort":0,"color":null,"flags":{},"_id":"8RzYl8bcp2nMwdTn"}
 {"name":"Drawn Cards","type":"Cards","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"IJHGSqArvqBXv37K"}
 {"name":"Decks","type":"Cards","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"pGOof4SVGFvNHE6Z"}
 {"name":"Costs","type":"Cards","parent":"pGOof4SVGFvNHE6Z","sorting":"a","sort":0,"color":null,"flags":{},"_id":"uoIVg9Y2IwZjBpmP"}
