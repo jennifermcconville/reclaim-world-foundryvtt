@@ -14,9 +14,7 @@
   "dependencies": [],
   "socket": false,
   "protected": false,
-  "background": "",
-  "coreVersion": "9.269",
-  "nextSession": null,
+  "coreVersion": "9.280",
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "1.0.0"
