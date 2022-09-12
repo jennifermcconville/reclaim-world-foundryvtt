@@ -1,8 +1,9 @@
 {"key":"minimal-ui.transparencyPercentage","value":"10","_id":"0Be8MDhHkBGgySTI"}
 {"key":"monks-active-tiles.fix-imagecycle","value":"true","_id":"4pWlANiR8VREZz12"}
 {"key":"monks-active-tiles.fix-action-names","value":"true","_id":"OGXKf0GxcwmFAkyN"}
-{"_id":"PQrE75iqdjyocpe0","key":"core.moduleConfiguration","value":"{\"vtta-tokenizer\":false,\"about-time\":false,\"adventuremusic\":false,\"calendar-weather\":false,\"chat-autoloader\":false,\"dndAudioBundle-HammerHome\":false,\"dice-calculator\":false,\"fxmaster\":false,\"gAudioBundle-1\":false,\"gAudioBundle-2\":false,\"gAudioBundle-3\":false,\"gAudioBundle-4\":false,\"gm-notes\":false,\"scaleGrid\":false,\"image-previewer\":false,\"mindmap\":false,\"maestro\":false,\"michaelghelfi\":false,\"miskasmaps\":false,\"pings\":false,\"playlist_import\":false,\"popout\":false,\"returntosetup\":false,\"tiles-browser\":true,\"token-mold\":false,\"dd-import\":false,\"world-anvil\":false,\"_dev-mode\":true,\"copy-card\":true,\"dlopen\":false,\"quench\":false,\"vueport\":false,\"colorsettings\":true,\"lib-wrapper\":true,\"minimal-ui\":true,\"sidebar-resizer\":true,\"window-controls\":true,\"hand-mini-bar\":true,\"card-tiles\":false,\"dice-so-nice\":true,\"monks-active-tiles\":false,\"warpgate\":true,\"allow-players-to-delete-their-tokens\":true,\"settings-extender\":true,\"monaco-macro-editor\":true}"}
+{"_id":"PQrE75iqdjyocpe0","key":"core.moduleConfiguration","value":"{\"vtta-tokenizer\":false,\"about-time\":false,\"adventuremusic\":false,\"calendar-weather\":false,\"chat-autoloader\":false,\"dndAudioBundle-HammerHome\":false,\"dice-calculator\":false,\"fxmaster\":false,\"gAudioBundle-1\":false,\"gAudioBundle-2\":false,\"gAudioBundle-3\":false,\"gAudioBundle-4\":false,\"gm-notes\":false,\"scaleGrid\":false,\"image-previewer\":false,\"mindmap\":false,\"maestro\":false,\"michaelghelfi\":false,\"miskasmaps\":false,\"pings\":false,\"playlist_import\":false,\"popout\":false,\"returntosetup\":false,\"tiles-browser\":false,\"token-mold\":false,\"dd-import\":false,\"world-anvil\":false,\"_dev-mode\":false,\"copy-card\":true,\"dlopen\":false,\"quench\":false,\"vueport\":false,\"colorsettings\":true,\"lib-wrapper\":true,\"minimal-ui\":true,\"sidebar-resizer\":true,\"window-controls\":true,\"hand-mini-bar\":true,\"card-tiles\":false,\"dice-so-nice\":true,\"monks-active-tiles\":false,\"warpgate\":false}"}
 {"key":"dice-so-nice.formatVersion","value":"\"4.1\"","_id":"PRPAxlmqg5AWSsLl"}
+{"key":"hand-mini-bar.CardClick","value":"\"card_image\"","_id":"XMivOT3MxvFgBAPt"}
 {"key":"core.animateRollTable","value":"false","_id":"ZrYJjyzT7foyrHwF"}
 {"key":"core.time","value":"0","_id":"arBPD9mzG7bpvb2L"}
 {"key":"hand-mini-bar.HideMessages","value":"false","_id":"cWVtuxWMBoiqHwiS"}
@@ -11,8 +12,5 @@
 {"key":"card-tiles.board-stack","value":"\"PdDZCDloFHt7tVtx\"","_id":"mUkVE50xYNV7Xr4B"}
 {"key":"core.rtcWorldSettings","value":"{\"mode\":3,\"turn\":{\"type\":\"server\",\"url\":\"\",\"username\":\"\",\"password\":\"\"}}","_id":"nV3oRsbQKCgnm5JX"}
 {"key":"core.nue.shownTips","value":"true","_id":"sIJMpxRPxMxh5vSj"}
-{"key":"core.defaultToken","value":"{\"disposition\":1}","_id":"ullSkO3ODDsqRmzg"}
 {"key":"minimal-ui.controlsSubHide","value":"\"autohide\"","_id":"vFut5e8OKrdm93HE"}
-{"key":"dice-so-nice.animateRollTable","value":"true","_id":"xPEFaJpwKTwqJVoi"}
-{"key":"minimal-ui.hotbar","value":"\"shown\"","_id":"xbVaRqtx5zLrXFc3"}
 {"key":"window-controls.rememberPinnedWindows","value":"true","_id":"ym5p43lOMtOfykGK"}
