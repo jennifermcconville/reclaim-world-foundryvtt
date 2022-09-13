@@ -1,21 +1,16 @@
 {
   "name": "developing-reclaim",
+  "id": "developing-reclaim",
   "title": "Developing Reclaim",
-  "description": "",
-  "authors": [],
-  "flags": {},
   "version": "1.0.0",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [],
   "system": "reclaimboardgame",
-  "dependencies": [],
-  "socket": false,
-  "protected": false,
-  "coreVersion": "9.280",
+  "coreVersion": "10.285",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.0.0"
+  "systemVersion": "1.0.0",
+  
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.285"
+  }
 }
