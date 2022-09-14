@@ -3,7 +3,7 @@
   "id": "reclaimboardgame",
   "title": "Reclaim Board Game",
   "description": "The Reclaim Board Game system for FoundryVTT!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "10",
     "verified": "10.285"
@@ -15,8 +15,12 @@
       "email": "adam.politanski@hiq.se"
     }
   ],
-  "esmodules": ["module/reclaimboardgame.mjs"],
-  "styles": ["css/reclaimboardgame.css"],
+  "esmodules": [
+    "module/reclaimboardgame.mjs"
+  ],
+  "styles": [
+    "css/reclaimboardgame.css"
+  ],
   "scripts": [],
   "packs": [],
   "languages": [
@@ -27,7 +31,41 @@
     }
   ],
   "url": "",
-  "manifest": "",
-  "download": "",
-  "license": "LICENSE.txt"
+  "manifest": "http://localhost:8000/system.json",
+  "download": "http://localhost:8000/packaged.zip",
+  "license": "LICENSE.txt",
+  "relationships": {
+    "requires": [
+      {
+        "id": "hand-mini-bar",
+        "type": "module",
+        "manifest": "https://gitlab.com/pengrath/hand-mini-bar/-/raw/main/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "minimal-ui",
+        "type": "module",
+        "manifest": "https://github.com/saif-ellafi/foundryvtt-minimal-ui/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "sidebar-resizer",
+        "type": "module",
+        "manifest": "https://github.com/saif-ellafi/foundryvtt-sidebar-resizer/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "window-controls",
+        "type": "module",
+        "manifest": "https://github.com/saif-ellafi/foundryvtt-window-controls/releases/latest/download/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "allow-players-to-delete-their-tokens",
+        "type": "module",
+        "manifest": "https://github.com/itamarcu/allow-players-to-delete-their-tokens/raw/master/module.json",
+        "compatibility": {}
+      }
+    ]
+  }
 }
