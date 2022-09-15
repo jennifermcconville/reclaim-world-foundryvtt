@@ -19,7 +19,7 @@ export class ReclaimBGActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/reclaimboardgame/templates/actor/actor-${this.actor.data.type}-sheet.html`;
+    return `systems/reclaimboardgame/templates/actor/actor-${this.actor.type}-sheet.html`;
   }
 
   /* -------------------------------------------- */
@@ -33,10 +33,10 @@ export class ReclaimBGActorSheet extends ActorSheet {
     const context = super.getData();
 
     // Use a safe clone of the actor data for further operations.
-    const actorData = this.actor.data.toObject(false);
+    const actorData = this.actor.toObject(false);
 
     // Add the actor's data to context.data for easier access, as well as flags.
-    context.data = actorData.data;
+    context.system = actorData.system;
     context.flags = actorData.flags;
 
     // Prepare character data and items.
@@ -134,7 +134,7 @@ export class ReclaimBGActorSheet extends ActorSheet {
     html.find('.rollable').click(this._onRoll.bind(this));
 
     // Drag events for macros.
-    if (this.actor.owner) {
+    if (this.actor.isOwner) {
       let handler = ev => this._onDragStart(ev);
       html.find('li.item').each((i, li) => {
         if (li.classList.contains("inventory-header")) return;
@@ -162,10 +162,10 @@ export class ReclaimBGActorSheet extends ActorSheet {
     const itemData = {
       name: name,
       type: type,
-      data: data
+      system: data
     };
     // Remove the type from the dataset since it's in the itemData.type prop.
-    delete itemData.data["type"];
+    delete itemData.system["type"];
 
     // Finally, create the item!
     return await Item.create(itemData, {parent: this.actor});
@@ -192,7 +192,7 @@ export class ReclaimBGActorSheet extends ActorSheet {
 
     // Handle rolls that supply the formula directly.
     if (dataset.roll) {
-      let label = dataset.label ? `[roll] ${dataset.label}` : '';
+      let label = dataset.label ? `[ability] ${dataset.label}` : '';
       let roll = new Roll(dataset.roll, this.actor.getRollData());
       roll.toMessage({
         speaker: ChatMessage.getSpeaker({ actor: this.actor }),
