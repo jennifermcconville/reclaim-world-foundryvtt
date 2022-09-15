@@ -1,5 +1,4 @@
 {
-  "name": "developing-reclaim",
   "id": "developing-reclaim",
   "title": "Developing Reclaim",
   "version": "1.0.0",
@@ -8,9 +7,71 @@
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "1.0.0",
-  
   "compatibility": {
     "minimum": "10",
     "verified": "10.285"
-  }
+  },
+  "packs": [
+    {
+      "label": "Reclaim Tokens (Actors)",
+      "type": "Actor",
+      "name": "reclaim-tokens-actors",
+      "path": "packs/reclaim-tokens-actors.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "id": "world.reclaim-tokens-actors",
+      "packageType": "world",
+      "packageName": "developing-reclaim",
+      "index": []
+    },
+    {
+      "label": "Reclaim Resouces Tokens",
+      "type": "Actor",
+      "name": "reclaim-resouces-tokens",
+      "path": "packs/reclaim-resouces-tokens.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "id": "world.reclaim-resouces-tokens",
+      "packageType": "world",
+      "packageName": "developing-reclaim",
+      "index": []
+    },
+    {
+      "label": "Reclaim Boards (Scenes)",
+      "type": "Scene",
+      "name": "reclaim-boards-scenes",
+      "path": "packs/reclaim-boards-scenes.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "id": "world.reclaim-boards-scenes",
+      "packageType": "world",
+      "packageName": "developing-reclaim",
+      "index": []
+    },
+    {
+      "label": "Reclaim Dice",
+      "type": "RollTable",
+      "name": "reclaim-dice",
+      "path": "packs/reclaim-dice.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "id": "world.reclaim-dice",
+      "packageType": "world",
+      "packageName": "developing-reclaim",
+      "index": []
+    },
+    {
+      "label": "Reclaim Decks",
+      "type": "Cards",
+      "name": "reclaim-decks",
+      "path": "packs/reclaim-decks.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {}
+    }
+  ]
 }

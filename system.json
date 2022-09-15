@@ -22,7 +22,38 @@
     "css/reclaimboardgame.css"
   ],
   "scripts": [],
-  "packs": [],
+  "packs": [
+    {
+      "name": "reclaim-scenes",
+      "label": "Game Boards",
+      "path": "packs/reclaim-boards-scenes.db",
+      "type": "Scene"
+    },
+    {
+      "name": "reclaim-cards",
+      "label": "Cards",
+      "path": "packs/reclaim-decks.db",
+      "type": "Scene"
+    },
+    {
+      "name": "reclaim-tables",
+      "label": "Dice",
+      "path": "packs/reclaim-dice.db",
+      "type": "Scene"
+    },
+    {
+      "name": "reclaim-actors",
+      "label": "Actors",
+      "path": "packs/reclaim-tokens-actors.db",
+      "type": "Scene"
+    },
+    {
+      "name": "reclaim-tokens",
+      "label": "Tokens",
+      "path": "packs/reclaim-resources-tokens.db",
+      "type": "Scene"
+    }
+  ],
   "languages": [
     {
       "lang": "en",
