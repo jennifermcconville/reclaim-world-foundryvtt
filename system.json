@@ -90,12 +90,6 @@
         "type": "module",
         "manifest": "https://github.com/saif-ellafi/foundryvtt-window-controls/releases/latest/download/module.json",
         "compatibility": {}
-      },
-      {
-        "id": "allow-players-to-delete-their-tokens",
-        "type": "module",
-        "manifest": "https://github.com/itamarcu/allow-players-to-delete-their-tokens/raw/master/module.json",
-        "compatibility": {}
       }
     ]
   }
