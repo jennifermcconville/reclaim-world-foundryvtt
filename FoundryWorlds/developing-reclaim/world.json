@@ -13,65 +13,17 @@
   },
   "packs": [
     {
-      "label": "Reclaim Tokens (Actors)",
-      "type": "Actor",
-      "name": "reclaim-tokens-actors",
-      "path": "packs/reclaim-tokens-actors.db",
+      "label": "Adventure Pack",
+      "type": "Adventure",
+      "name": "adventure-pack",
+      "path": "packs/adventure-pack.db",
       "system": "reclaimboardgame",
       "private": false,
       "flags": {},
-      "id": "world.reclaim-tokens-actors",
+      "id": "world.adventure-pack",
       "packageType": "world",
       "packageName": "developing-reclaim",
       "index": []
-    },
-    {
-      "label": "Reclaim Resouces Tokens",
-      "type": "Actor",
-      "name": "reclaim-resouces-tokens",
-      "path": "packs/reclaim-resouces-tokens.db",
-      "system": "reclaimboardgame",
-      "private": false,
-      "flags": {},
-      "id": "world.reclaim-resouces-tokens",
-      "packageType": "world",
-      "packageName": "developing-reclaim",
-      "index": []
-    },
-    {
-      "label": "Reclaim Boards (Scenes)",
-      "type": "Scene",
-      "name": "reclaim-boards-scenes",
-      "path": "packs/reclaim-boards-scenes.db",
-      "system": "reclaimboardgame",
-      "private": false,
-      "flags": {},
-      "id": "world.reclaim-boards-scenes",
-      "packageType": "world",
-      "packageName": "developing-reclaim",
-      "index": []
-    },
-    {
-      "label": "Reclaim Dice",
-      "type": "RollTable",
-      "name": "reclaim-dice",
-      "path": "packs/reclaim-dice.db",
-      "system": "reclaimboardgame",
-      "private": false,
-      "flags": {},
-      "id": "world.reclaim-dice",
-      "packageType": "world",
-      "packageName": "developing-reclaim",
-      "index": []
-    },
-    {
-      "label": "Reclaim Decks",
-      "type": "Cards",
-      "name": "reclaim-decks",
-      "path": "packs/reclaim-decks.db",
-      "system": "reclaimboardgame",
-      "private": false,
-      "flags": {}
     }
   ]
 }

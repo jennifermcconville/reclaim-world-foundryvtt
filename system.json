@@ -24,34 +24,73 @@
   "scripts": [],
   "packs": [
     {
-      "name": "reclaim-scenes",
-      "label": "Game Boards",
-      "path": "packs/reclaim-boards-scenes.db",
-      "type": "Scene"
-    },
-    {
-      "name": "reclaim-cards",
-      "label": "Cards",
-      "path": "packs/reclaim-decks.db",
-      "type": "Scene"
-    },
-    {
-      "name": "reclaim-tables",
-      "label": "Dice",
-      "path": "packs/reclaim-dice.db",
-      "type": "Scene"
-    },
-    {
-      "name": "reclaim-actors",
-      "label": "Actors",
+      "label": "Reclaim Tokens (Actors)",
+      "type": "Actor",
+      "name": "reclaim-tokens-actors",
       "path": "packs/reclaim-tokens-actors.db",
-      "type": "Scene"
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "index": []
     },
     {
-      "name": "reclaim-tokens",
-      "label": "Tokens",
-      "path": "packs/reclaim-resources-tokens.db",
-      "type": "Scene"
+      "label": "Reclaim Resouces Tokens",
+      "type": "Actor",
+      "name": "reclaim-resouces-tokens",
+      "path": "packs/reclaim-resouces-tokens.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "index": []
+    },
+    {
+      "label": "Reclaim Boards (Scenes)",
+      "type": "Scene",
+      "name": "reclaim-boards-scenes",
+      "path": "packs/reclaim-boards-scenes.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "index": []
+    },
+    {
+      "label": "Reclaim Dice",
+      "type": "RollTable",
+      "name": "reclaim-dice",
+      "path": "packs/reclaim-dice.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "index": []
+    },
+    {
+      "label": "Reclaim Decks",
+      "type": "Cards",
+      "name": "reclaim-decks",
+      "path": "packs/reclaim-decks.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Macro Pack",
+      "type": "Macro",
+      "name": "macro-pack",
+      "path": "packs/macro-pack.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "index": []
+    },
+    {
+      "label": "Reclaim Card Hands",
+      "type": "Cards",
+      "name": "reclaim-card-hands",
+      "path": "packs/reclaim-card-hands.db",
+      "system": "reclaimboardgame",
+      "private": false,
+      "flags": {},
+      "index": []
     }
   ],
   "languages": [
