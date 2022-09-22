@@ -3,27 +3,12 @@
   "title": "Developing Reclaim",
   "version": "1.0.0",
   "system": "reclaimboardgame",
-  "coreVersion": "10.285",
+  "coreVersion": "10.286",
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "1.0.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.285"
-  },
-  "packs": [
-    {
-      "label": "Adventure Pack",
-      "type": "Adventure",
-      "name": "adventure-pack",
-      "path": "packs/adventure-pack.db",
-      "system": "reclaimboardgame",
-      "private": false,
-      "flags": {},
-      "id": "world.adventure-pack",
-      "packageType": "world",
-      "packageName": "developing-reclaim",
-      "index": []
-    }
-  ]
+    "verified": "10.286"
+  }
 }
