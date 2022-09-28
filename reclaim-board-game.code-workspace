@@ -2,7 +2,19 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../Program Files/Foundry Virtual Tabletop/resources/app"
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"alefragnani.bookmarks",
+			"fabiospampinato.vscode-todo-plus",
+			"dbaeumer.vscode-eslint",
+			"compulim.vscode-mocha",
+			"maty.vscode-mocha-sidebar"
+		]
+	}
 }
