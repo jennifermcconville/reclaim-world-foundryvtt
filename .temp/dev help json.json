@@ -1,0 +1,203 @@
+{
+	"_id": "iUi1e9ZVFfoRuLoq",
+	"name": "Disease Cost",
+	"type": "deck",
+	"description": "",
+	"img": "icons/svg/card-hand.svg",
+	"cards": [
+		{
+			"_id": "BDeLoex3jt1FfMgP",
+			"name": "300",
+			"description": "",
+			"type": "base",
+			"suit": "DiseaseCost",
+			"back": {
+				"name": "",
+				"text": "",
+				"img": null
+			},
+			"faces": [
+				{
+					"name": "300",
+					"img": "systems/reclaimboardgame/assets/Cards/Cost%20cards/cost_card_disease_300.png",
+					"text": ""
+				}
+			],
+			"face": 0,
+			"drawn": false,
+			"origin": null,
+			"rotation": 0,
+			"sort": 4,
+			"flags": {},
+			"value": 300,
+			"system": {},
+			"width": null,
+			"height": null
+		},
+		{
+			"_id": "Hks1ygmTBOSPZ8Pf",
+			"name": "300",
+			"description": "",
+			"type": "base",
+			"suit": "DiseaseCosts",
+			"back": {
+				"name": "",
+				"text": "",
+				"img": null
+			},
+			"faces": [
+				{
+					"name": "300",
+					"img": "systems/reclaimboardgame/assets/Cards/Cost%20cards/cost_card_disease_300.png",
+					"text": ""
+				}
+			],
+			"face": 0,
+			"drawn": false,
+			"origin": null,
+			"rotation": 0,
+			"sort": -100000,
+			"flags": {},
+			"value": 300,
+			"system": {},
+			"width": null,
+			"height": null
+		},
+		{
+			"_id": "QaLTdDUg2QSojqte",
+			"name": "400",
+			"description": "",
+			"type": "base",
+			"suit": "DiseaseCost",
+			"back": {
+				"name": "",
+				"text": "",
+				"img": null
+			},
+			"faces": [
+				{
+					"name": "400",
+					"img": "systems/reclaimboardgame/assets/Cards/Cost%20cards/cost_card_disease_400.png",
+					"text": ""
+				}
+			],
+			"face": 0,
+			"drawn": false,
+			"origin": null,
+			"rotation": 0,
+			"sort": 2,
+			"flags": {},
+			"value": 400,
+			"system": {},
+			"width": null,
+			"height": null
+		},
+		{
+			"_id": "3qdHX5Uwwm6TrsrK",
+			"name": "400",
+			"description": "",
+			"type": "base",
+			"suit": "DiseaseCost",
+			"back": {
+				"name": "",
+				"text": "",
+				"img": null
+			},
+			"faces": [
+				{
+					"name": "400",
+					"img": "systems/reclaimboardgame/assets/Cards/Cost%20cards/cost_card_disease_400.png",
+					"text": ""
+				}
+			],
+			"face": 0,
+			"drawn": false,
+			"origin": null,
+			"rotation": 0,
+			"sort": 5,
+			"flags": {},
+			"value": 400,
+			"system": {},
+			"width": null,
+			"height": null
+		},
+		{
+			"_id": "QnztXwP5DPqp3l8D",
+			"name": "400",
+			"description": "",
+			"type": "base",
+			"suit": "DiseaseCost",
+			"back": {
+				"name": "",
+				"text": "",
+				"img": null
+			},
+			"faces": [
+				{
+					"name": "400",
+					"img": "systems/reclaimboardgame/assets/Cards/Cost%20cards/cost_card_disease_400.png",
+					"text": ""
+				}
+			],
+			"face": 0,
+			"drawn": false,
+			"origin": null,
+			"rotation": 0,
+			"sort": 3,
+			"flags": {},
+			"value": 400,
+			"system": {},
+			"width": null,
+			"height": null
+		},
+		{
+			"name": "300",
+			"type": "base",
+			"_id": "JboE3rRg6TXdZnD2",
+			"description": "",
+			"system": {},
+			"suit": "DiseaseCost",
+			"value": 300,
+			"back": {
+				"name": "",
+				"text": "",
+				"img": null
+			},
+			"faces": [
+				{
+					"name": "300",
+					"img": "systems/reclaimboardgame/assets/Cards/Cost%20cards/cost_card_disease_300.png",
+					"text": ""
+				}
+			],
+			"face": 0,
+			"drawn": false,
+			"origin": null,
+			"width": null,
+			"height": null,
+			"rotation": 0,
+			"sort": 0,
+			"flags": {}
+		}
+	],
+	"width": 791,
+	"height": 1087,
+	"rotation": 0,
+	"displayCount": false,
+	"folder": "uoIVg9Y2IwZjBpmP",
+	"sort": 100000,
+	"flags": {},
+	"system": {},
+	"ownership": {
+		"default": 3,
+		"Vw2dJYzSA2RtAZK8": 3
+	},
+	"_stats": {
+		"systemId": "reclaimboardgame",
+		"systemVersion": "0.0.2",
+		"coreVersion": "10.287",
+		"createdTime": null,
+		"modifiedTime": 1665410152626,
+		"lastModifiedBy": "Vw2dJYzSA2RtAZK8"
+	}
+}
