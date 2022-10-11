@@ -11,11 +11,6 @@
 			"url": "http://localhost:30000",
 			"webRoot": "${workspaceFolder}",
 			"preLaunchTask": "run-node-foundry-deployed"
-		},
-		{
-			"name": "Attach MS Dev Tools to Edge",
-			"type": "vscode-edge-devtools.debug",
-			"request": "attach"
 		}
 	]
 }
