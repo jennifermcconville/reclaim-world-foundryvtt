@@ -3,12 +3,12 @@
   "title": "Developing Reclaim",
   "version": "1.0.0",
   "system": "reclaimboardgame",
-  "coreVersion": "10.287",
+  "coreVersion": "10.288",
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "1.0.0",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.287"
+    "verified": "10.288"
   }
 }
