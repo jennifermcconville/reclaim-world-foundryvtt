@@ -1,12 +1,12 @@
 {
   "id": "developing-reclaim",
   "title": "Developing Reclaim",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "system": "reclaimboardgame",
   "coreVersion": "10.288",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.0.0",
+  "systemVersion": "0.0.2",
   "compatibility": {
     "minimum": "10",
     "verified": "10.288"
