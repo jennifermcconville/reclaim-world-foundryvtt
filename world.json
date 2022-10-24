@@ -1,6 +1,6 @@
 {
-  "id": "developing-reclaim",
-  "title": "Developing Reclaim",
+  "id": "reclaim-default-world",
+  "title": "Reclaim Default World",
   "version": "0.1.0",
   "system": "reclaimboardgame",
   "coreVersion": "10.288",
