@@ -1,12 +1,12 @@
 {
   "id": "reclaim-default-world",
   "title": "Reclaim Default World",
-  "version": "0.1.0",
-  "system": "reclaimboardgame",
+  "version": "0.2.0",
+  "system": "reclaim",
   "coreVersion": "10.288",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "0.0.2",
+  "systemVersion": "0.2.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10.288"
