@@ -10,5 +10,8 @@
   "compatibility": {
     "minimum": "10",
     "verified": "10.288"
-  }
+  },
+  "url": "",
+  "manifest": "http://localhost:8000/system.json",
+  "download": "http://localhost:8000/packaged.zip"
 }
