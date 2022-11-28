@@ -3,15 +3,14 @@
   "title": "Reclaim Default World",
   "version": "#{version}#",
   "system": "reclaim",
-  "coreVersion": "10.288",
+  "coreVersion": "10.290",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "0.3.0",
+  "systemVersion": "0.3.9",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.288"
+    "verified": "10.290"
   },
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "packs": [
+  ]
 }
