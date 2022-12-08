@@ -1,1 +1,7 @@
 .temp/dev help json.json
+data/combats.db
+data/drawings.db
+data/fog.db
+data/items.db
+data/messages.db
+data/playlists.db
