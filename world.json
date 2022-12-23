@@ -1,13 +1,11 @@
 {
   "id": "reclaim-default-world",
   "title": "Reclaim Default World",
-  "version": "0.0.6.3",
+  "version": "0.0.6.4",
   "system": "reclaim",
-  "coreVersion": "10.291",
   "coreVersion": "10.291",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "v0.3.11",
   "systemVersion": "v0.3.11",
   "compatibility": {
     "minimum": "10",
