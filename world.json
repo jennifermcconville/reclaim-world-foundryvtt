@@ -1,7 +1,7 @@
 {
   "id": "reclaim-default-world",
   "title": "Reclaim Default World",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "system": "reclaim",
   "coreVersion": "10.291",
   "resetKeys": false,
