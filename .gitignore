@@ -8,4 +8,4 @@ data/items.db
 data/messages.db
 data/playlists.db
 data/*.json
-.vscodegit 
+.vscode 
